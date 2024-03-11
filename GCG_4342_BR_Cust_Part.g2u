@@ -1,0 +1,669 @@
+Program.Sub.ScreenSU.Start
+gui.SS_Form1..create
+gui.SS_Form1..caption("Sales Analysis by Branch / Customer / Part")
+gui.SS_Form1..size(6160,7065)
+gui.SS_Form1..position(0,0)
+gui.SS_Form1..alwaysontop(False)
+gui.SS_Form1..fontname("Arial")
+gui.SS_Form1..fontsize(8)
+gui.SS_Form1..forecolor(0)
+gui.SS_Form1..fontstyle(,,,,)
+gui.SS_Form1..BackColor(-2147483633)
+gui.SS_Form1..controlbox(True)
+gui.SS_Form1..maxbutton(False)
+gui.SS_Form1..minbutton(False)
+gui.SS_Form1..mousepointer(0)
+gui.SS_Form1..moveable(True)
+gui.SS_Form1..sizeable(False)
+gui.SS_Form1..ShowInTaskBar(True)
+gui.SS_Form1..titlebar(True)
+gui.SS_Form1..event(unload,ss_form1_unload)
+gui.SS_Form1.lbl_dtp1_Begdate.create(label,"Beginning Invoice Date",True,1800,200,1,100,135,True,0,Arial,8,-2147483633,0)
+gui.SS_Form1.dtp1_Begdate.create(datepicker)
+gui.SS_Form1.dtp1_Begdate.visible(True)
+gui.SS_Form1.dtp1_Begdate.size(1800,345)
+gui.SS_Form1.dtp1_Begdate.position(100,335)
+gui.SS_Form1.dtp1_Begdate.enabled(True)
+gui.SS_Form1.dtp1_Begdate.fontname("Arial")
+gui.SS_Form1.lbl_dtp1_Begdate.LabelStretch(True)
+gui.SS_Form1.lbl_dtp1_Begdate.setinternationalid(779801)
+gui.SS_Form1.lbl_dtp1_Enddate.create(label,"Ending Invoice Date",True,1800,200,1,1985,135,True,0,Arial,8,-2147483633,0)
+gui.SS_Form1.dtp1_Enddate.create(datepicker)
+gui.SS_Form1.dtp1_Enddate.visible(True)
+gui.SS_Form1.dtp1_Enddate.size(1800,345)
+gui.SS_Form1.dtp1_Enddate.position(1985,335)
+gui.SS_Form1.dtp1_Enddate.enabled(True)
+gui.SS_Form1.dtp1_Enddate.fontname("Arial")
+gui.SS_Form1.lbl_dtp1_Enddate.LabelStretch(True)
+gui.SS_Form1.lbl_dtp1_Enddate.setinternationalid(779901)
+gui.SS_Form1.chk1_Alldates.create(checkbox)
+gui.SS_Form1.chk1_Alldates.Caption("All Dates")
+gui.SS_Form1.chk1_Alldates.visible(True)
+gui.SS_Form1.chk1_Alldates.size(1800,300)
+gui.SS_Form1.chk1_Alldates.position(100,685)
+gui.SS_Form1.chk1_Alldates.enabled(True)
+gui.SS_Form1.chk1_Alldates.fontname("Arial")
+gui.SS_Form1.chk1_Alldates.fontsize(8)
+gui.SS_Form1.chk1_Alldates.setinternationalid(19700)
+gui.SS_Form1.chk1_Alldates.event(click,chk1_alldates_click)
+gui.SS_Form1.lbl_txt1_BegBR.create(label,"Beginning Branch Number",True,1800,200,1,100,1235,True,0,Arial,8,-2147483633,0)
+gui.SS_Form1.lbl_txt1_BegBR.LabelStretch(True)
+gui.SS_Form1.lbl_txt1_BegBR.setinternationalid(60800)
+gui.SS_Form1.txt1_BegBR.create(textbox,"",True,1800,330,1,100,1435,True,0,Arial,8,16777215,1)
+Gui.SS_Form1.cmd_txt1_BegBR.create(button)
+gui.SS_Form1.cmd_txt1_BegBR.Caption("^")
+gui.SS_Form1.cmd_txt1_BegBR.visible(True)
+gui.SS_Form1.cmd_txt1_BegBR.size(330,330)
+gui.SS_Form1.cmd_txt1_BegBR.position(1985,1435)
+gui.SS_Form1.cmd_txt1_BegBR.enabled(True)
+gui.SS_Form1.cmd_txt1_BegBR.fontname("Arial")
+gui.SS_Form1.cmd_txt1_BegBR.fontsize(8)
+gui.SS_Form1.cmd_txt1_BegBR.event(click,cmd_txt1_begbr_click)
+gui.SS_Form1.lbl_txt1_EndBR.create(label,"Ending Branch Number",True,1800,200,1,2455,1235,True,0,Arial,8,-2147483633,0)
+gui.SS_Form1.lbl_txt1_EndBR.LabelStretch(True)
+gui.SS_Form1.lbl_txt1_EndBR.setinternationalid(212600)
+gui.SS_Form1.txt1_EndBR.create(textbox,"",True,1800,330,1,2455,1435,True,0,Arial,8,16777215,1)
+Gui.SS_Form1.cmd_txt1_EndBR.create(button)
+gui.SS_Form1.cmd_txt1_EndBR.Caption("^")
+gui.SS_Form1.cmd_txt1_EndBR.visible(True)
+gui.SS_Form1.cmd_txt1_EndBR.size(330,330)
+gui.SS_Form1.cmd_txt1_EndBR.position(4340,1435)
+gui.SS_Form1.cmd_txt1_EndBR.enabled(True)
+gui.SS_Form1.cmd_txt1_EndBR.fontname("Arial")
+gui.SS_Form1.cmd_txt1_EndBR.fontsize(8)
+gui.SS_Form1.cmd_txt1_EndBR.event(click,cmd_txt1_endbr_click)
+gui.SS_Form1.chk1_AllBR.create(checkbox)
+gui.SS_Form1.chk1_AllBR.Caption("All Branches")
+gui.SS_Form1.chk1_AllBR.visible(True)
+gui.SS_Form1.chk1_AllBR.size(1800,300)
+gui.SS_Form1.chk1_AllBR.position(100,1770)
+gui.SS_Form1.chk1_AllBR.enabled(True)
+gui.SS_Form1.chk1_AllBR.fontname("Arial")
+gui.SS_Form1.chk1_AllBR.fontsize(8)
+gui.SS_Form1.chk1_AllBR.setinternationalid(74902)
+gui.SS_Form1.lvw1_BR.create(listview)
+gui.SS_Form1.lvw1_BR.view(3)
+gui.SS_Form1.lvw1_BR.visible(True)
+gui.SS_Form1.lvw1_BR.size(5810,2000)
+gui.SS_Form1.lvw1_BR.position(100,2320)
+gui.SS_Form1.lvw1_BR.enabled(True)
+gui.SS_Form1.lvw1_BR.fontname("Arial")
+gui.SS_Form1.lvw1_BR.fontsize(8)
+gui.SS_Form1.lvw1_BR.addlistviewcolumn(variable.Translation.60800,2705,0)
+gui.SS_Form1.lvw1_BR.addlistviewcolumn(variable.Translation.212600,2705,0)
+Gui.SS_Form1.cmd_lvw1_BRAdd.create(button)
+gui.SS_Form1.cmd_lvw1_BRAdd.Caption("Add")
+gui.SS_Form1.cmd_lvw1_BRAdd.visible(True)
+gui.SS_Form1.cmd_lvw1_BRAdd.size(1000,330)
+gui.SS_Form1.cmd_lvw1_BRAdd.position(4810,1435)
+gui.SS_Form1.cmd_lvw1_BRAdd.enabled(True)
+gui.SS_Form1.cmd_lvw1_BRAdd.fontname("Arial")
+gui.SS_Form1.cmd_lvw1_BRAdd.fontsize(8)
+gui.SS_Form1.cmd_lvw1_BRAdd.setinternationalid(7600)
+gui.SS_Form1.cmd_lvw1_BRadd.event(click,cmd_lvw1_bradd_click)
+Gui.SS_Form1.cmd_lvw1_BRDelete.create(button)
+gui.SS_Form1.cmd_lvw1_BRDelete.Caption("Delete")
+gui.SS_Form1.cmd_lvw1_BRDelete.visible(True)
+gui.SS_Form1.cmd_lvw1_BRDelete.size(1000,330)
+gui.SS_Form1.cmd_lvw1_BRDelete.position(100,4405)
+gui.SS_Form1.cmd_lvw1_BRDelete.enabled(True)
+gui.SS_Form1.cmd_lvw1_BRDelete.fontname("Arial")
+gui.SS_Form1.cmd_lvw1_BRDelete.fontsize(8)
+gui.SS_Form1.cmd_lvw1_BRDelete.setinternationalid(171500)
+gui.SS_Form1.cmd_lvw1_BRdelete.event(click,cmd_lvw1_brdelete_click)
+Gui.SS_Form1.cmd_lvw1_BRClear.create(button)
+gui.SS_Form1.cmd_lvw1_BRClear.Caption("Clear")
+gui.SS_Form1.cmd_lvw1_BRClear.visible(True)
+gui.SS_Form1.cmd_lvw1_BRClear.size(1000,330)
+gui.SS_Form1.cmd_lvw1_BRClear.position(1185,4405)
+gui.SS_Form1.cmd_lvw1_BRClear.enabled(True)
+gui.SS_Form1.cmd_lvw1_BRClear.fontname("Arial")
+gui.SS_Form1.cmd_lvw1_BRClear.fontsize(8)
+gui.SS_Form1.cmd_lvw1_BRClear.setinternationalid(106700)
+gui.SS_Form1.cmd_lvw1_BRclear.event(click,cmd_lvw1_brclear_click)
+gui.SS_Form1.chk1_InclProg.create(checkbox)
+gui.SS_Form1.chk1_InclProg.Caption("Include Progress Bill Lines")
+gui.SS_Form1.chk1_InclProg.visible(True)
+gui.SS_Form1.chk1_InclProg.size(3600,300)
+gui.SS_Form1.chk1_InclProg.position(100,4935)
+gui.SS_Form1.chk1_InclProg.enabled(True)
+gui.SS_Form1.chk1_InclProg.fontname("Arial")
+gui.SS_Form1.chk1_InclProg.fontsize(8)
+gui.SS_Form1.chk1_InclProg.setinternationalid(291501)
+gui.SS_Form1.chk1_InclFreight.create(checkbox)
+gui.SS_Form1.chk1_InclFreight.Caption("Include Freight Charges")
+gui.SS_Form1.chk1_InclFreight.visible(True)
+gui.SS_Form1.chk1_InclFreight.size(3600,300)
+gui.SS_Form1.chk1_InclFreight.position(100,5320)
+gui.SS_Form1.chk1_InclFreight.enabled(True)
+gui.SS_Form1.chk1_InclFreight.fontname("Arial")
+gui.SS_Form1.chk1_InclFreight.fontsize(8)
+gui.SS_Form1.chk1_InclFreight.setinternationalid(291402)
+gui.SS_Form1.chk1_InclExclusions.create(checkbox)
+gui.SS_Form1.chk1_InclExclusions.Caption("Use Exclusion Accounts to Exclude Records")
+gui.SS_Form1.chk1_InclExclusions.visible(True)
+gui.SS_Form1.chk1_InclExclusions.size(3600,300)
+gui.SS_Form1.chk1_InclExclusions.position(100,5705)
+gui.SS_Form1.chk1_InclExclusions.enabled(True)
+gui.SS_Form1.chk1_InclExclusions.fontname("Arial")
+gui.SS_Form1.chk1_InclExclusions.fontsize(8)
+gui.SS_Form1.chk1_InclExclusions.setinternationalid(3305)
+gui.SS_Form1.cmd1_Print.create(button)
+gui.SS_Form1.cmd1_Print.Caption("Print")
+gui.SS_Form1.cmd1_Print.visible(True)
+gui.SS_Form1.cmd1_Print.size(1000,360)
+gui.SS_Form1.cmd1_Print.position(100,6090)
+gui.SS_Form1.cmd1_Print.enabled(True)
+gui.SS_Form1.cmd1_Print.fontname("Arial")
+gui.SS_Form1.cmd1_Print.fontsize(8)
+gui.SS_Form1.cmd1_Print.setinternationalid(452800)
+gui.SS_Form1.cmd1_Print.event(click,cmd1_print_click)
+gui.SS_Form1.dtp1_Begdate.tabstop(true)
+gui.SS_Form1.dtp1_Begdate.tabindex(1)
+gui.SS_Form1.dtp1_Enddate.tabstop(true)
+gui.SS_Form1.dtp1_Enddate.tabindex(2)
+gui.SS_Form1.chk1_Alldates.tabstop(true)
+gui.SS_Form1.chk1_Alldates.tabindex(3)
+gui.SS_Form1.txt1_BegBR.tabstop(true)
+gui.SS_Form1.txt1_BegBR.tabindex(4)
+gui.SS_Form1.cmd_txt1_BegBR.tabstop(true)
+gui.SS_Form1.cmd_txt1_BegBR.tabindex(5)
+gui.SS_Form1.txt1_EndBR.tabstop(true)
+gui.SS_Form1.txt1_EndBR.tabindex(6)
+gui.SS_Form1.cmd_txt1_EndBR.tabstop(true)
+gui.SS_Form1.cmd_txt1_EndBR.tabindex(7)
+gui.SS_Form1.cmd_lvw1_BRAdd.tabstop(true)
+gui.SS_Form1.cmd_lvw1_BRAdd.tabindex(8)
+gui.SS_Form1.chk1_AllBR.tabstop(true)
+gui.SS_Form1.chk1_AllBR.tabindex(9)
+gui.SS_Form1.chk1_InclProg.tabstop(true)
+gui.SS_Form1.chk1_InclProg.tabindex(10)
+gui.SS_Form1.chk1_InclFreight.tabstop(true)
+gui.SS_Form1.chk1_InclFreight.tabindex(11)
+gui.SS_Form1.chk1_InclExclusions.tabstop(true)
+gui.SS_Form1.chk1_InclExclusions.tabindex(12)
+gui.SS_Form1.cmd1_Print.tabstop(true)
+gui.SS_Form1.cmd1_Print.tabindex(13)
+
+
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Variable.Global.bopt.Declare(Boolean,False)
+Variable.Global.CDec.Declare(String)
+Variable.Global.QDec.Declare(String)
+Variable.Global.iKey.Declare(Long,0)
+Variable.Global.iLogid.declare(Long,0)
+Variable.Global.iBIRunID.declare(Long,0)
+
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+F.Intrinsic.Control.SetErrorHandler("Main_Err")
+F.Intrinsic.Control.ClearErrors
+
+'open connection
+F.ODBC.connection!conx.OpenConnection(V.Ambient.PDSN,V.Ambient.puser,V.Ambient.PPass)
+gui.SS_Form1..applytranslation
+Gui.ss_form1.chk1_InclProg.value("0")
+Gui.SS_Form1.chk1_InclExclusions.value("0")
+Gui.SS_Form1.chk1_InclFreight.value("0")
+Gui.SS_Form1..show
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("Main_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.Main.End
+
+program.sub.cmd1_print_click.start
+F.Intrinsic.Control.SetErrorHandler("cmd1_print_click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sRows.Declare(String)
+V.Local.sStartDate.Declare(String)
+V.Local.sEndDate.Declare(String)
+V.Local.sBRRange.Declare(String)
+V.Local.sRangePad1.Declare(String)
+V.Local.sRangePad2.Declare(String)
+V.Local.sBRRangeFile.Declare(String)
+V.Local.sBRRangeFileString.Declare(String)
+V.Local.sBRRangeFileFQP.Declare(String)
+V.Local.sParams.Declare(String)
+V.Local.sSQL.Declare(String)
+V.Local.iC.Declare(Long)
+V.Local.iOrd.Declare(Long)
+V.Local.sDel.Declare(String)
+
+Gui.SS_Form1..Visible(False)
+
+'These are the options that set how many decimals will be used for the Cost and Quantity fields
+F.global.general.readoption("400713",1,"0",0,V.Global.CDec)
+F.global.general.readoption("400714",1,"0",0,V.Global.QDec)
+
+'This is setting the RunId and identifying the report Id
+F.Global.BI.GetRunID(V.Global.iBIRunID)
+F.Intrinsic.Control.If(V.Ambient.IsInIDE,=,True)
+        F.Global.BI.StartLogging(V.global.iBIRunID,1309,0,"",V.global.iLogID)
+F.Intrinsic.Control.Else
+        F.Global.BI.StartLogging(V.global.iBIRunID,-1,-1,"",V.global.iLogID)
+F.Intrinsic.Control.EndIf
+
+''This is setting up the parameters for the CallWrapper
+
+Gui.SS_Form1.lvw1_BR.RetrieveAllListItems(V.Local.sRows)
+
+F.Intrinsic.Control.If(V.Local.sRows,<>,"***NORETURN***")
+	F.Intrinsic.String.Build("{0}{1}",V.Global.iBIRunID.String,"PSA000P",V.Local.sBRRangefile)
+	f.Intrinsic.String.Build("{0}\{1}",v.Caller.localgsstempdir,v.Local.sBRRangeFile,v.Local.sBRRangeFileFQP)
+	F.Intrinsic.String.Split(V.Local.sRows,"*!*",V.Local.sRows)
+	F.Intrinsic.Control.For(V.Local.iC,0,V.Local.sRows.UBound,1)
+		Gui.SS_Form1.lvw1_BR.RetrieveItemOrdinal(V.Local.sRows(v.Local.iC),V.Local.iOrd)
+		V.Local.sBRRange.Set(V.Screen.SS_Form1!lvw1_BR.ListItemTextExtended(v.Local.iOrd))
+		F.Intrinsic.String.Split(V.Local.sBRRange,"*!*",V.Local.sBRRange)
+		F.Intrinsic.String.RPad(V.Local.sBRRange(0)," ",3,V.Local.sRangePad1)
+		F.Intrinsic.String.RPad(V.Local.sBRRange(1)," ",3,V.Local.sRangePad2)
+		F.Intrinsic.Control.If(V.Local.sBRRangeFileString.Trim,=,"")
+			F.Intrinsic.String.Build("{0}{1}",V.Local.sRangePad1,V.Local.sRangePad2,V.Local.sBRRangeFileString)
+		F.Intrinsic.Control.Else
+			F.Intrinsic.String.Build("{0}{1}{2}{3}",V.Local.sBRRangeFileString,V.Ambient.NewLine,V.Local.sRangePad1,V.Local.sRangePad2,V.Local.sBRRangeFileString)
+		F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.Next(V.Local.iC)
+	F.Intrinsic.Control.If(V.Local.sBRRangeFileString.Trim,<>,"")
+		F.Intrinsic.File.String2File(V.Local.sBRRangeFileFQP,V.Local.sBRRangeFileString)
+	F.Intrinsic.Control.EndIf
+F.Intrinsic.Control.Else
+	V.Local.sBRRangeFile.Set("")
+F.Intrinsic.Control.EndIf
+F.Intrinsic.String.Format(V.Screen.SS_Form1!dtp1_BegDate.Value,"YYYYMMDD",V.Local.sStartDate)
+F.Intrinsic.String.Format(V.Screen.SS_Form1!dtp1_EndDate.Value,"YYYYMMDD",V.Local.sEndDate)
+F.Intrinsic.String.Build("{0}!*!{1}!*!{2}!*!{3}!*!{4}!*!{5}!*!{6}!*!{7}!*!{8}!*!{9}!*!{10}!*!{11}!*!{12}!*!{13}!*!{14}!*!{15}!*!{16}",V.Global.iBIRunID,"1309",V.Screen.SS_Form1!chk1_Alldates.Value,V.Local.sStartDate,V.Local.sEndDate,"1","","1","","1","","1","",V.Screen.SS_Form1!chk1_AllBR.Value,V.Local.sBRRangeFile,"1","",V.Local.sParams)
+
+F.Global.General.CallWrapperSync(8101,V.Local.sParams)
+
+'This reads the Y_SA_IN_DETAIL table
+F.Intrinsic.String.Build("Select RUNID as BIRUNID, Part, Part_Locn, Cust, Invc_no, Invc_Date, Descr, Prod_Line, Qty_Shipped, Cost,(select sum(amt_partial_shpmnt*-1) as ACT_Cost from v_job_header b where a.order_num = b.sales_order and left(a.order_line,3) = b.sales_order_line group by sales_order,Sales_order_line), Sales, ShipTo_ID, Ship_Name, Salesman_ID AS Sales_Rep, Salesman_Name as Sales_Rep_Name, Order_Num, Branch, Order_Seq, Freight_flag, Prog_bill_flag as Progress_Flag, excl_acct_flag from Y_SA_IN_DETAIL a where RUNID = '{0}'",V.Global.iBIRunID,V.Local.ssql)
+
+F.Data.DataTable.CreateFromSQL("SABRCustPrt","conx",V.Local.sSQL,True)
+
+F.Intrinsic.Control.If(V.DataTable.SABRCustPrt.RowCount--,<>,-1)
+	F.Data.DataTable.SaveToDB("SABRCustPrt","conx","GCG_4342_BR_CUST_PRT"," ",128,"BIRUNID@!@BIRUNID*!*PART@!@PART*!*DESCR@!@DESCR*!*PART_LOCN@!@PART_LOCN*!*CUST@!@CUST*!*INVC_NO@!@INVC_NO*!*INVC_DATE@!@INVC_DATE*!*PROD_LINE@!@PROD_LINE*!*QTY_SHIPPED@!@QTY_SHIPPED*!*COST@!@COST*!*ACT_COST@!@ACT_COST*!*SALES@!@SALES*!*SHIPTO_ID@!@SHIPTO_ID*!*SHIP_NAME@!@SHIP_NAME*!*SALES_REP@!@SALES_REP*!*SALES_REP_NAME@!@SALES_REP_NAME*!*ORDER_NUM@!@ORDER_NUM*!*ORDER_SEQ@!@ORDER_SEQ*!*BRANCH@!@BRANCH*!*PROGRESS_FLAG@!@PROGRESS_FLAG*!*FREIGHT_FLAG@!@FREIGHT_FLAG*!*EXCL_ACCT_FLAG@!@EXCL_ACCT_FLAG")
+F.Intrinsic.Control.EndIf
+
+F.Data.DataTable.Close("SABRCustPrt")
+
+'ThisdeletesthecontentsoftheY_SA_IN_DETAILtablefortherunid
+F.Intrinsic.String.Build("Delete from Y_SA_IN_DETAIL where runid='{0}'",V.Global.iBIRunID,V.Local.sDel)
+
+F.ODBC.Connection!conx.Execute(V.Local.sDel)
+
+'This is calling the Crystal Report
+F.Global.BI.StopLogging(V.Global.iLogid)
+F.Intrinsic.Control.CallSub(Callbi)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("cmd1_print_click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.cmd1_print_click.End
+
+Program.Sub.CallBI.Start
+F.Intrinsic.Control.SetErrorHandler("CallBI_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sParams.Declare(String)
+V.Local.sValues.Declare(String)
+V.local.iret.declare(Long)
+
+V.Local.sParams.set("AllBR*!*AllDates*!*BegDate*!*EndDate*!*PrtCDec*!*PrtDec*!*InclProg*!*InclFreight*!*InclExclusions")
+F.Intrinsic.String.Build("{0}*!*{1}*!*{2}*!*{3}*!*{4}*!*{5}*!*{6}*!*{7}*!*{8}",V.Screen.SS_Form1!chk1_AllBR.Value,V.Screen.SS_Form1!chk1_Alldates.Value,V.Screen.SS_Form1!dtp1_Begdate.Value,V.Screen.SS_Form1!dtp1_Enddate.Value,V.Global.CDec,V.Global.QDec,V.Screen.SS_Form1!chk1_InclProg.Value,V.Screen.SS_Form1!chk1_InclFreight.Value,V.Screen.SS_Form1!chk1_InclExclusions.Value,V.Local.sValues)
+
+F.Global.BI.runreportpreprocessor(V.Global.iBIRunID,V.Global.iLogid,V.Local.sParams,V.Local.sValues,"",-1,True,"",-1,"",-1,"","",V.Local.iret)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("CallBI_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.CallBI.End
+
+program.sub.ss_form1_unload.start
+F.Intrinsic.Control.SetErrorHandler("ss_form1_unload_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+F.ODBC.Connection!conx.Close
+F.Intrinsic.Control.End
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("ss_form1_unload_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.ss_form1_unload.End
+
+program.sub.chk1_allBR_click.start
+F.Intrinsic.Control.SetErrorHandler("chk1_allBR_click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+'All
+
+F.Intrinsic.Control.If(V.Screen.SS_Form1!chk1_allBR.Value,=,1)
+'disable entry of range
+	Gui.SS_Form1.txt1_BegBR.Enabled(false)
+	Gui.SS_Form1.txt1_EndBR.Enabled(false)
+	Gui.SS_Form1.cmd_txt1_BegBR.Enabled(false)
+	Gui.SS_Form1.cmd_txt1_EndBR.Enabled(false)
+	Gui.ss_form1.cmd_lvw1_BRadd.Enabled(false)
+	Gui.ss_form1.cmd_lvw1_BRclear.Enabled(false)
+	Gui.ss_form1.cmd_lvw1_BRdelete.Enabled(false)
+	Gui.SS_Form1.txt1_BegBR.Text("")
+	Gui.SS_Form1.txt1_EndBR.Text("")
+	Gui.SS_Form1.lvw1_BR.ClearItems
+
+F.Intrinsic.control.Else
+
+'enable entry of range
+	Gui.SS_Form1.txt1_BegBR.Enabled(true)
+	Gui.SS_Form1.txt1_EndBR.Enabled(true)
+	Gui.SS_Form1.cmd_txt1_BegBR.Enabled(true)
+	Gui.SS_Form1.cmd_txt1_EndBR.Enabled(true)
+	Gui.ss_form1.cmd_lvw1_BRadd.Enabled(true)
+	Gui.ss_form1.cmd_lvw1_BRClear.Enabled(true)
+	Gui.ss_form1.cmd_lvw1_BRdelete.Enabled(true)
+	Gui.SS_Form1.lvw1_BR.ClearItems
+F.Intrinsic.Control.EndIf
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("chk1_allBR_click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.chk1_allBR_click.End
+
+program.sub.txt1_begBR_gotfocus.start
+F.Intrinsic.Control.SetErrorHandler("txt1_begBR_gotfocus_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+Gui.SS_Form1.txt1_BegBR.SelectAll
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("txt1_begBR_gotfocus_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.txt1_begBR_gotfocus.End
+
+program.sub.txt1_begBR_lostfocus.start
+F.Intrinsic.Control.SetErrorHandler("txt1_begpart_lostfocus_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+Gui.SS_Form1.txt1_EndBR.Text(V.Screen.SS_Form1!txt1_BegBR.Text)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("txt1_begBR_lostfocus_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.txt1_begBR_lostfocus.End
+
+program.sub.txt1_endBR_gotfocus.start
+F.Intrinsic.Control.SetErrorHandler("txt1_endpart_gotfocus_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+Gui.SS_Form1.txt1_EndBR.SelectAll
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("txt1_endBR_gotfocus_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.txt1_endBR_gotfocus.End
+
+program.sub.cmd_txt1_begBR_click.start
+F.Intrinsic.Control.SetErrorHandler("cmd_txt1_begpart_click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+'Beginning Browser
+V.Local.sSql.Declare(String)
+V.Local.sTitles.Declare(String)
+V.Local.sWidths.Declare(String)
+V.Local.sRet.Declare(String)
+
+F.Intrinsic.UI.SetBrowserHotTypeAhead(True)
+
+F.Intrinsic.UI.Browser(95,"",V.Local.sRet)
+
+F.Intrinsic.Control.If(V.Local.sRet,<>,"***CANCEL***")
+	F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)
+	Gui.ss_form1.txt1_begBR.Text(V.Local.sRet.Trim)
+	Gui.SS_Form1.txt1_EndBR.Text(V.Screen.SS_Form1!txt1_BegBR.Text)
+F.Intrinsic.Control.EndIf
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("cmd_txt1_begpart_click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.cmd_txt1_begBR_click.End
+
+program.sub.cmd_txt1_endBR_click.start
+F.Intrinsic.Control.SetErrorHandler("cmd_txt1_endpart_click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+'Ending Browser
+V.Local.sSql.Declare(String)
+V.Local.sTitles.Declare(String)
+V.Local.sWidths.Declare(String)
+V.Local.sRet.Declare(String)
+
+F.Intrinsic.UI.SetBrowserHotTypeAhead(True)
+
+F.Intrinsic.UI.Browser(95,"",V.Local.sRet)
+
+F.Intrinsic.Control.If(V.Local.sRet,<>,"***CANCEL***")
+	F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)
+	Gui.ss_form1.txt1_endBR.Text(V.Local.sRet.Trim)
+F.Intrinsic.Control.EndIf
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("cmd_txt1_endpart_click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.cmd_txt1_endBR_click.End
+
+program.sub.cmd_lvw1_BRadd_click.start
+F.Intrinsic.Control.SetErrorHandler("cmd_lvw1_BRadd_click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+'Listview Add button
+V.Local.sSql.Declare(String)
+
+F.Intrinsic.control.If(V.screen.SS_Form1!txt1_BegBR.text,<," ")
+F.Intrinsic.control.andIf(V.screen.SS_Form1!txt1_EndBR.text,<," ")
+	F.intrinsic.control.exitsub
+Function.Intrinsic.Control.EndIf
+
+F.Intrinsic.Math.Add(V.global.iKey,1,V.global.iKey)
+Gui.SS_Form1.lvw1_BR.AddListItem(V.global.iKey,V.Screen.SS_Form1!txt1_BegBR.Text)
+Gui.SS_Form1.lvw1_BR.SetListItemSubItemText(V.global.iKey,1,V.Screen.SS_Form1!txt1_EndBR.Text)
+Gui.SS_Form1.txt1_BegBR.Text("")
+Gui.SS_Form1.txt1_EndBR.Text("")
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("cmd_lvw1_BRadd_click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.cmd_lvw1_BRadd_click.End
+
+program.sub.cmd_lvw1_BRdelete_click.start
+F.Intrinsic.Control.SetErrorHandler("cmd_lvw1_BRdelete_click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+'Listview delete button
+V.Local.iKey.Declare(Long)
+V.Local.iOrd.Declare(Long)
+
+V.Local.iKey.Set(V.Screen.SS_Form1!lvw1_BR.SelectedItemKey)
+Gui.SS_Form1.lvw1_BR.removeitem(V.Local.iKey)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("cmd_lvw1_BRdelete_click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.cmd_lvw1_BRdelete_click.End
+
+program.sub.cmd_lvw1_BRclear_click.start
+F.Intrinsic.Control.SetErrorHandler("cmd_lvw1_BRclear_click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+'Listview clear button
+Gui.SS_Form1.lvw1_BR.ClearItems
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("cmd_lvw1_BRclear_click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.cmd_lvw1_BRclear_click.End
+
+program.sub.chk1_alldates_click.start
+F.Intrinsic.Control.SetErrorHandler("chk1_alldates_click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+'All Dates
+
+F.Intrinsic.Control.If(V.Screen.SS_Form1!chk1_AllDates.Value,=,1)
+'disable entry of date range
+	Gui.SS_Form1.dtp1_BegDate.enabled(false)
+	Gui.SS_Form1.dtp1_EndDate.Enabled(false)
+	
+F.Intrinsic.control.Else
+
+'enable entry of date range
+	Gui.SS_Form1.dtp1_BegDate.Enabled(true)
+	Gui.SS_Form1.dtp1_EndDate.Enabled(true)
+F.Intrinsic.Control.EndIf
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("chk1_alldates_click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4342_BR_Cust_Part.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(Ss_form1_unload)
+Function.Intrinsic.Control.EndIf
+
+
+program.sub.chk1_alldates_click.End
+
+Program.Sub.ScreenSS.Start
+SS_Form1{{CAPTION::Sales Analysis by Branch / Customer / Part
+SS_Form1.CTRL{{NAME::dtp1_Begdate\\TYPE::6\\CAPTION::Beginning Invoice Date\\TABSTOP::1\\GROUP::2\\BROWSER::0\\INTL::779801\\SIZE::1
+SS_Form1.CTRL{{NAME::dtp1_Enddate\\TYPE::6\\CAPTION::Ending Invoice Date\\TABSTOP::2\\GROUP::2\\BROWSER::0\\INTL::779901\\SIZE::1
+SS_Form1.CTRL{{NAME::chk1_Alldates\\TYPE::9\\CAPTION::All Dates\\TABSTOP::3\\GROUP::-1\\SUBGROUP::1\\BROWSER::0\\INTL::19700\\SIZE::1
+SS_Form1.CTRL{{NAME::txt1_BegBR\\TYPE::2\\CAPTION::Beginning Branch Number\\RANGE::lvw1_BR\\TABSTOP::4\\GROUP::1\\BROWSER::1\\INTL::60800\\SIZE::1
+SS_Form1.CTRL{{NAME::txt1_EndBR\\TYPE::2\\CAPTION::Ending Branch Number\\RANGE::lvw1_BR\\TABSTOP::5\\GROUP::1\\BROWSER::1\\INTL::212600\\SIZE::1
+SS_Form1.CTRL{{NAME::chk1_AllBR\\TYPE::9\\CAPTION::All Branches\\TABSTOP::6\\GROUP::-1\\SUBGROUP::1\\BROWSER::0\\INTL::74902\\SIZE::1
+SS_Form1.CTRL{{NAME::lvw1_BR\\TYPE::7\\GROUP::-1\\BROWSER::0\\SIZE::1
+SS_Form1.CTRL{{NAME::chk1_InclProg\\TYPE::9\\CAPTION::Include Progress Bill Lines\\TABSTOP::7\\GROUP::-1\\BROWSER::0\\INTL::291501\\SIZE::1
+SS_Form1.CTRL{{NAME::chk1_InclFreight\\TYPE::9\\CAPTION::Include Freight Charges\\TABSTOP::8\\GROUP::-1\\BROWSER::0\\INTL::291402\\SIZE::1
+SS_Form1.CTRL{{NAME::chk1_InclExclusions\\TYPE::9\\CAPTION::Use Exclusion Accounts to Exclude Records\\TABSTOP::9\\GROUP::-1\\BROWSER::0\\INTL::3305\\SIZE::1
+SS_Form1.CTRL{{NAME::cmd1_Print\\TYPE::5\\CAPTION::Print\\TABSTOP::10\\GROUP::-1\\BROWSER::0\\INTL::452800\\SIZE::1
+
+Program.Sub.ScreenSS.End
+
+Program.Sub.Comments.Start
+${$0$}$$}$$}$12:00:00 AM$}$False
+Program.Sub.Comments.End
