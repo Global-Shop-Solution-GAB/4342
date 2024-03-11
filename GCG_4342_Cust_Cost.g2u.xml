@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>670</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>2</Height>
+      </Size>
+      <X>0</X>
+      <Y>670</Y>
+      <Width>24</Width>
+      <Height>2</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>670</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>gui.SS_Form1..create</string>
+        <string>gui.SS_Form1..caption("Sales Analysis by Customer, Part Number with Cost")</string>
+        <string>gui.SS_Form1..size(6160,7065)</string>
+        <string>gui.SS_Form1..position(0,0)</string>
+        <string>gui.SS_Form1..alwaysontop(False)</string>
+        <string>gui.SS_Form1..fontname("Arial")</string>
+        <string>gui.SS_Form1..fontsize(8)</string>
+        <string>gui.SS_Form1..forecolor(0)</string>
+        <string>gui.SS_Form1..fontstyle(,,,,)</string>
+        <string>gui.SS_Form1..BackColor(-2147483633)</string>
+        <string>gui.SS_Form1..controlbox(True)</string>
+        <string>gui.SS_Form1..maxbutton(False)</string>
+        <string>gui.SS_Form1..minbutton(False)</string>
+        <string>gui.SS_Form1..mousepointer(0)</string>
+        <string>gui.SS_Form1..moveable(True)</string>
+        <string>gui.SS_Form1..sizeable(False)</string>
+        <string>gui.SS_Form1..ShowInTaskBar(True)</string>
+        <string>gui.SS_Form1..titlebar(True)</string>
+        <string>gui.SS_Form1..event(unload,ss_form1_unload)</string>
+        <string>gui.SS_Form1.lbl_dtp1_Begdate.create(label,"Beginning Invoice Date",True,1800,200,1,100,135,True,0,Arial,8,-2147483633,0)</string>
+        <string>gui.SS_Form1.dtp1_Begdate.create(datepicker)</string>
+        <string>gui.SS_Form1.dtp1_Begdate.visible(True)</string>
+        <string>gui.SS_Form1.dtp1_Begdate.size(1800,345)</string>
+        <string>gui.SS_Form1.dtp1_Begdate.position(100,335)</string>
+        <string>gui.SS_Form1.dtp1_Begdate.enabled(True)</string>
+        <string>gui.SS_Form1.dtp1_Begdate.fontname("Arial")</string>
+        <string>gui.SS_Form1.lbl_dtp1_Begdate.LabelStretch(True)</string>
+        <string>gui.SS_Form1.lbl_dtp1_Begdate.setinternationalid(779801)</string>
+        <string>gui.SS_Form1.lbl_dtp1_Enddate.create(label,"Ending Invoice Date",True,1800,200,1,1985,135,True,0,Arial,8,-2147483633,0)</string>
+        <string>gui.SS_Form1.dtp1_Enddate.create(datepicker)</string>
+        <string>gui.SS_Form1.dtp1_Enddate.visible(True)</string>
+        <string>gui.SS_Form1.dtp1_Enddate.size(1800,345)</string>
+        <string>gui.SS_Form1.dtp1_Enddate.position(1985,335)</string>
+        <string>gui.SS_Form1.dtp1_Enddate.enabled(True)</string>
+        <string>gui.SS_Form1.dtp1_Enddate.fontname("Arial")</string>
+        <string>gui.SS_Form1.lbl_dtp1_Enddate.LabelStretch(True)</string>
+        <string>gui.SS_Form1.lbl_dtp1_Enddate.setinternationalid(779901)</string>
+        <string>gui.SS_Form1.chk1_Alldates.create(checkbox)</string>
+        <string>gui.SS_Form1.chk1_Alldates.Caption("All Dates")</string>
+        <string>gui.SS_Form1.chk1_Alldates.visible(True)</string>
+        <string>gui.SS_Form1.chk1_Alldates.size(1800,300)</string>
+        <string>gui.SS_Form1.chk1_Alldates.position(100,685)</string>
+        <string>gui.SS_Form1.chk1_Alldates.enabled(True)</string>
+        <string>gui.SS_Form1.chk1_Alldates.fontname("Arial")</string>
+        <string>gui.SS_Form1.chk1_Alldates.fontsize(8)</string>
+        <string>gui.SS_Form1.chk1_Alldates.setinternationalid(19700)</string>
+        <string>gui.SS_Form1.chk1_Alldates.event(click,chk1_alldates_click)</string>
+        <string>gui.SS_Form1.lbl_txt1_BegCust.create(label,"Beginning Customer Number",True,1800,200,1,100,1235,True,0,Arial,8,-2147483633,0)</string>
+        <string>gui.SS_Form1.lbl_txt1_BegCust.LabelStretch(True)</string>
+        <string>gui.SS_Form1.lbl_txt1_BegCust.setinternationalid(61000)</string>
+        <string>gui.SS_Form1.txt1_BegCust.create(textbox,"",True,1800,330,1,100,1435,True,0,Arial,8,16777215,1)</string>
+        <string>Gui.SS_Form1.cmd_txt1_BegCust.create(button)</string>
+        <string>gui.SS_Form1.cmd_txt1_BegCust.Caption("^")</string>
+        <string>gui.SS_Form1.cmd_txt1_BegCust.visible(True)</string>
+        <string>gui.SS_Form1.cmd_txt1_BegCust.size(330,330)</string>
+        <string>gui.SS_Form1.cmd_txt1_BegCust.position(1985,1435)</string>
+        <string>gui.SS_Form1.cmd_txt1_BegCust.enabled(True)</string>
+        <string>gui.SS_Form1.cmd_txt1_BegCust.fontname("Arial")</string>
+        <string>gui.SS_Form1.cmd_txt1_BegCust.fontsize(8)</string>
+        <string>gui.SS_Form1.cmd_txt1_BegCust.event(click,cmd_txt1_begcust_click)</string>
+        <string>gui.SS_Form1.lbl_txt1_EndCust.create(label,"Ending Customer Number",True,1800,200,1,2455,1235,True,0,Arial,8,-2147483633,0)</string>
+        <string>gui.SS_Form1.lbl_txt1_EndCust.LabelStretch(True)</string>
+        <string>gui.SS_Form1.lbl_txt1_EndCust.setinternationalid(212900)</string>
+        <string>gui.SS_Form1.txt1_EndCust.create(textbox,"",True,1800,330,1,2455,1435,True,0,Arial,8,16777215,1)</string>
+        <string>Gui.SS_Form1.cmd_txt1_EndCust.create(button)</string>
+        <string>gui.SS_Form1.cmd_txt1_EndCust.Caption("^")</string>
+        <string>gui.SS_Form1.cmd_txt1_EndCust.visible(True)</string>
+        <string>gui.SS_Form1.cmd_txt1_EndCust.size(330,330)</string>
+        <string>gui.SS_Form1.cmd_txt1_EndCust.position(4340,1435)</string>
+        <string>gui.SS_Form1.cmd_txt1_EndCust.enabled(True)</string>
+        <string>gui.SS_Form1.cmd_txt1_EndCust.fontname("Arial")</string>
+        <string>gui.SS_Form1.cmd_txt1_EndCust.fontsize(8)</string>
+        <string>gui.SS_Form1.cmd_txt1_EndCust.event(click,cmd_txt1_endcust_click)</string>
+        <string>gui.SS_Form1.chk1_AllCust.create(checkbox)</string>
+        <string>gui.SS_Form1.chk1_AllCust.Caption("All Customers")</string>
+        <string>gui.SS_Form1.chk1_AllCust.visible(True)</string>
+        <string>gui.SS_Form1.chk1_AllCust.size(1800,300)</string>
+        <string>gui.SS_Form1.chk1_AllCust.position(100,1770)</string>
+        <string>gui.SS_Form1.chk1_AllCust.enabled(True)</string>
+        <string>gui.SS_Form1.chk1_AllCust.fontname("Arial")</string>
+        <string>gui.SS_Form1.chk1_AllCust.fontsize(8)</string>
+        <string>gui.SS_Form1.chk1_AllCust.setinternationalid(19200)</string>
+        <string>gui.SS_Form1.lvw1_Cust.create(listview)</string>
+        <string>gui.SS_Form1.lvw1_Cust.view(3)</string>
+        <string>gui.SS_Form1.lvw1_Cust.visible(True)</string>
+        <string>gui.SS_Form1.lvw1_Cust.size(5810,2000)</string>
+        <string>gui.SS_Form1.lvw1_Cust.position(100,2320)</string>
+        <string>gui.SS_Form1.lvw1_Cust.enabled(True)</string>
+        <string>gui.SS_Form1.lvw1_Cust.fontname("Arial")</string>
+        <string>gui.SS_Form1.lvw1_Cust.fontsize(8)</string>
+        <string>gui.SS_Form1.lvw1_Cust.addlistviewcolumn(variable.Translation.61000,2705,0)</string>
+        <string>gui.SS_Form1.lvw1_Cust.addlistviewcolumn(variable.Translation.212900,2705,0)</string>
+        <string>Gui.SS_Form1.cmd_lvw1_CustAdd.create(button)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustAdd.Caption("Add")</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustAdd.visible(True)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustAdd.size(1000,330)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustAdd.position(4810,1435)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustAdd.enabled(True)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustAdd.fontname("Arial")</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustAdd.fontsize(8)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustAdd.setinternationalid(7600)</string>
+        <string>gui.SS_Form1.cmd_lvw1_Custadd.event(click,cmd_lvw1_custadd_click)</string>
+        <string>Gui.SS_Form1.cmd_lvw1_CustDelete.create(button)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustDelete.Caption("Delete")</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustDelete.visible(True)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustDelete.size(1000,330)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustDelete.position(100,4405)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustDelete.enabled(True)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustDelete.fontname("Arial")</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustDelete.fontsize(8)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustDelete.setinternationalid(171500)</string>
+        <string>gui.SS_Form1.cmd_lvw1_Custdelete.event(click,cmd_lvw1_custdelete_click)</string>
+        <string>Gui.SS_Form1.cmd_lvw1_CustClear.create(button)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustClear.Caption("Clear")</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustClear.visible(True)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustClear.size(1000,330)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustClear.position(1185,4405)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustClear.enabled(True)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustClear.fontname("Arial")</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustClear.fontsize(8)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustClear.setinternationalid(106700)</string>
+        <string>gui.SS_Form1.cmd_lvw1_Custclear.event(click,cmd_lvw1_custclear_click)</string>
+        <string>gui.SS_Form1.chk1_InclProg.create(checkbox)</string>
+        <string>gui.SS_Form1.chk1_InclProg.Caption("Include Progress Bill Lines")</string>
+        <string>gui.SS_Form1.chk1_InclProg.visible(True)</string>
+        <string>gui.SS_Form1.chk1_InclProg.size(3600,300)</string>
+        <string>gui.SS_Form1.chk1_InclProg.position(100,4935)</string>
+        <string>gui.SS_Form1.chk1_InclProg.enabled(True)</string>
+        <string>gui.SS_Form1.chk1_InclProg.fontname("Arial")</string>
+        <string>gui.SS_Form1.chk1_InclProg.fontsize(8)</string>
+        <string>gui.SS_Form1.chk1_InclProg.setinternationalid(291501)</string>
+        <string>gui.SS_Form1.chk1_InclFreight.create(checkbox)</string>
+        <string>gui.SS_Form1.chk1_InclFreight.Caption("Include Freight Charges")</string>
+        <string>gui.SS_Form1.chk1_InclFreight.visible(True)</string>
+        <string>gui.SS_Form1.chk1_InclFreight.size(3600,300)</string>
+        <string>gui.SS_Form1.chk1_InclFreight.position(100,5320)</string>
+        <string>gui.SS_Form1.chk1_InclFreight.enabled(True)</string>
+        <string>gui.SS_Form1.chk1_InclFreight.fontname("Arial")</string>
+        <string>gui.SS_Form1.chk1_InclFreight.fontsize(8)</string>
+        <string>gui.SS_Form1.chk1_InclFreight.setinternationalid(291402)</string>
+        <string>gui.SS_Form1.chk1_InclExclusions.create(checkbox)</string>
+        <string>gui.SS_Form1.chk1_InclExclusions.Caption("Use Exclusion Accounts to Exclude Records")</string>
+        <string>gui.SS_Form1.chk1_InclExclusions.visible(True)</string>
+        <string>gui.SS_Form1.chk1_InclExclusions.size(3600,300)</string>
+        <string>gui.SS_Form1.chk1_InclExclusions.position(100,5705)</string>
+        <string>gui.SS_Form1.chk1_InclExclusions.enabled(True)</string>
+        <string>gui.SS_Form1.chk1_InclExclusions.fontname("Arial")</string>
+        <string>gui.SS_Form1.chk1_InclExclusions.fontsize(8)</string>
+        <string>gui.SS_Form1.chk1_InclExclusions.setinternationalid(3305)</string>
+        <string>gui.SS_Form1.cmd1_Print.create(button)</string>
+        <string>gui.SS_Form1.cmd1_Print.Caption("Print")</string>
+        <string>gui.SS_Form1.cmd1_Print.visible(True)</string>
+        <string>gui.SS_Form1.cmd1_Print.size(1000,360)</string>
+        <string>gui.SS_Form1.cmd1_Print.position(100,6090)</string>
+        <string>gui.SS_Form1.cmd1_Print.enabled(True)</string>
+        <string>gui.SS_Form1.cmd1_Print.fontname("Arial")</string>
+        <string>gui.SS_Form1.cmd1_Print.fontsize(8)</string>
+        <string>gui.SS_Form1.cmd1_Print.setinternationalid(452800)</string>
+        <string>gui.SS_Form1.cmd1_Print.event(click,cmd1_print_click)</string>
+        <string>gui.SS_Form1.dtp1_Begdate.tabstop(true)</string>
+        <string>gui.SS_Form1.dtp1_Begdate.tabindex(1)</string>
+        <string>gui.SS_Form1.dtp1_Enddate.tabstop(true)</string>
+        <string>gui.SS_Form1.dtp1_Enddate.tabindex(2)</string>
+        <string>gui.SS_Form1.chk1_Alldates.tabstop(true)</string>
+        <string>gui.SS_Form1.chk1_Alldates.tabindex(3)</string>
+        <string>gui.SS_Form1.txt1_BegCust.tabstop(true)</string>
+        <string>gui.SS_Form1.txt1_BegCust.tabindex(4)</string>
+        <string>gui.SS_Form1.cmd_txt1_BegCust.tabstop(true)</string>
+        <string>gui.SS_Form1.cmd_txt1_BegCust.tabindex(5)</string>
+        <string>gui.SS_Form1.txt1_EndCust.tabstop(true)</string>
+        <string>gui.SS_Form1.txt1_EndCust.tabindex(6)</string>
+        <string>gui.SS_Form1.cmd_txt1_EndCust.tabstop(true)</string>
+        <string>gui.SS_Form1.cmd_txt1_EndCust.tabindex(7)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustAdd.tabstop(true)</string>
+        <string>gui.SS_Form1.cmd_lvw1_CustAdd.tabindex(8)</string>
+        <string>gui.SS_Form1.chk1_AllCust.tabstop(true)</string>
+        <string>gui.SS_Form1.chk1_AllCust.tabindex(9)</string>
+        <string>gui.SS_Form1.chk1_InclProg.tabstop(true)</string>
+        <string>gui.SS_Form1.chk1_InclProg.tabindex(10)</string>
+        <string>gui.SS_Form1.chk1_InclFreight.tabstop(true)</string>
+        <string>gui.SS_Form1.chk1_InclFreight.tabindex(11)</string>
+        <string>gui.SS_Form1.chk1_InclExclusions.tabstop(true)</string>
+        <string>gui.SS_Form1.chk1_InclExclusions.tabindex(12)</string>
+        <string>gui.SS_Form1.cmd1_Print.tabstop(true)</string>
+        <string>gui.SS_Form1.cmd1_Print.tabindex(13)</string>
+        <string />
+        <string />
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>Variable.Global.bopt.Declare(Boolean,False)</string>
+        <string>Variable.Global.CDec.Declare(String)</string>
+        <string>Variable.Global.QDec.Declare(String)</string>
+        <string>Variable.Global.iKey.Declare(Long,0)</string>
+        <string>Variable.Global.iLogid.declare(Long,0)</string>
+        <string>Variable.Global.iBIRunID.declare(Long,0)</string>
+        <string />
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>'open connection</string>
+        <string>F.ODBC.connection!conx.OpenConnection(V.Ambient.PDSN,V.Ambient.puser,V.Ambient.PPass)</string>
+        <string>gui.SS_Form1..applytranslation</string>
+        <string>Gui.ss_form1.chk1_InclProg.value("0")</string>
+        <string>Gui.SS_Form1.chk1_InclExclusions.value("0")</string>
+        <string>Gui.SS_Form1.chk1_InclFreight.value("0")</string>
+        <string>Gui.SS_Form1..show</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>program.sub.cmd1_print_click.start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd1_print_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sRows.Declare(String)</string>
+        <string>V.Local.sStartDate.Declare(String)</string>
+        <string>V.Local.sEndDate.Declare(String)</string>
+        <string>V.Local.sCustRange.Declare(String)</string>
+        <string>V.Local.sRangePad1.Declare(String)</string>
+        <string>V.Local.sRangePad2.Declare(String)</string>
+        <string>V.Local.sCustRangeFile.Declare(String)</string>
+        <string>V.Local.sCustRangeFileString.Declare(String)</string>
+        <string>V.Local.sCustRangeFileFQP.Declare(String)</string>
+        <string>V.Local.sParams.Declare(String)</string>
+        <string>V.Local.sSQL.Declare(String)</string>
+        <string>V.Local.iC.Declare(Long)</string>
+        <string>V.Local.iOrd.Declare(Long)</string>
+        <string>V.Local.sDel.Declare(String)</string>
+        <string />
+        <string>Gui.SS_Form1..Visible(False)</string>
+        <string />
+        <string>'These are the options that set how many decimals will be used for the Cost and Quantity fields</string>
+        <string>F.global.general.readoption("400713",1,"0",0,V.Global.CDec)</string>
+        <string>F.global.general.readoption("400714",1,"0",0,V.Global.QDec)</string>
+        <string />
+        <string>'This is setting the RunId and identifying the report Id</string>
+        <string>F.Global.BI.GetRunID(V.Global.iBIRunID)</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.IsInIDE,=,True)</string>
+        <string>        F.Global.BI.StartLogging(V.global.iBIRunID,9041,0,"",V.global.iLogID)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>        F.Global.BI.StartLogging(V.global.iBIRunID,-1,-1,"",V.global.iLogID)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>'This is setting up the parameters for the CallWrapper</string>
+        <string />
+        <string>Gui.SS_Form1.lvw1_Cust.RetrieveAllListItems(V.Local.sRows)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Local.sRows,&lt;&gt;,"***NORETURN***")</string>
+        <string>		F.Intrinsic.String.Build("{0}{1}",V.Global.iBIRunID.String,"PSA000P",V.Local.sCustRangefile)</string>
+        <string>		f.Intrinsic.String.Build("{0}\{1}",v.Caller.localgsstempdir,v.Local.sCustRangeFile,v.Local.sCustRangeFileFQP)</string>
+        <string />
+        <string>		F.Intrinsic.String.Split(V.Local.sRows,"*!*",V.Local.sRows)</string>
+        <string>	F.Intrinsic.Control.For(V.Local.iC,0,V.Local.sRows.UBound,1)</string>
+        <string>		Gui.SS_Form1.lvw1_Cust.RetrieveItemOrdinal(V.Local.sRows(v.Local.iC),V.Local.iOrd)</string>
+        <string>		V.Local.sCustRange.Set(V.Screen.SS_Form1!lvw1_Cust.ListItemTextExtended(v.Local.iOrd))</string>
+        <string>		F.Intrinsic.String.Split(V.Local.sCustRange,"*!*",V.Local.sCustRange)</string>
+        <string>		F.Intrinsic.String.RPad(V.Local.sCustRange(0)," ",7,V.Local.sRangePad1)</string>
+        <string>		F.Intrinsic.String.RPad(V.Local.sCustRange(1)," ",7,V.Local.sRangePad2)</string>
+        <string>		F.Intrinsic.Control.If(V.Local.sCustRangeFileString.Trim,=,"")</string>
+        <string>			F.Intrinsic.String.Build("{0}{1}",V.Local.sRangePad1,V.Local.sRangePad2,V.Local.sCustRangeFileString)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.Intrinsic.String.Build("{0}{1}{2}{3}",V.Local.sCustRangeFileString,V.Ambient.NewLine,V.Local.sRangePad1,V.Local.sRangePad2,V.Local.sCustRangeFileString)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.Next(V.Local.iC)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.sCustRangeFileString.Trim,&lt;&gt;,"")</string>
+        <string>		F.Intrinsic.File.String2File(V.Local.sCustRangeFileFQP,V.Local.sCustRangeFileString)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	V.Local.sCustRangeFile.Set("")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.String.Format(V.Screen.SS_Form1!dtp1_BegDate.Value,"YYYYMMDD",V.Local.sStartDate)</string>
+        <string>F.Intrinsic.String.Format(V.Screen.SS_Form1!dtp1_EndDate.Value,"YYYYMMDD",V.Local.sEndDate)</string>
+        <string>F.Intrinsic.String.Build("{0}!*!{1}!*!{2}!*!{3}!*!{4}!*!{5}!*!{6}!*!{7}!*!{8}!*!{9}!*!{10}!*!{11}!*!{12}!*!{13}!*!{14}!*!{15}!*!{16}",V.Global.iBIRunID,"9041",V.Screen.SS_Form1!chk1_Alldates.Value,V.Local.sStartDate,V.Local.sEndDate,"1","","1","",V.Screen.SS_Form1!chk1_AllCust.Value,V.Local.sCustRangeFile,"1","","1","","1","",V.Local.sParams)</string>
+        <string />
+        <string>F.Global.General.CallWrapperSync(8101,V.Local.sParams)</string>
+        <string />
+        <string>F.Intrinsic.String.Build("Select RUNID as BIRUNID, Part, Part_Locn, Cust, Invc_no, Invc_Date, Descr, Prod_Line, Qty_Shipped, Cost,(select sum(amt_partial_shpmnt*-1) as ACT_Cost from v_job_header b where a.order_num = b.sales_order and left(a.order_line,3) = b.sales_order_line group by sales_order,Sales_order_line),(select sum(PARTIAL_MATERIAL*-1) as ACT_Mat from v_job_header b where a.order_num = b.sales_order and left(a.order_line,3) = b.sales_order_line group by sales_order,Sales_order_line),(select sum(PARTIAL_LABOR*-1) as ACT_Lab from v_job_header b where a.order_num = b.sales_order and left(a.order_line,3) = b.sales_order_line group by sales_order,Sales_order_line),(select sum(PARTIAL_OVERHEAD*-1) as ACT_Ovh from v_job_header b where a.order_num = b.sales_order and left(a.order_line,3) = b.sales_order_line group by sales_order,Sales_order_line),(select sum(PARTIAL_OTHER*-1) as ACT_Oth from v_job_header b where a.order_num = b.sales_order and left(a.order_line,3) = b.sales_order_line group by sales_order,Sales_order_line),(select sum(PARTIAL_OUTSIDE*-1) as ACT_Out from v_job_header b where a.order_num = b.sales_order and left(a.order_line,3) = b.sales_order_line group by sales_order,Sales_order_line),(select sum(PARTIAL_FREIGHT*-1) as ACT_Frt from v_job_header b where a.order_num = b.sales_order and left(a.order_line,3) = b.sales_order_line group by sales_order,Sales_order_line), Sales, ShipTo_ID, Ship_Name, Salesman_ID AS Sales_Rep, Salesman_Name as Sales_Rep_Name, Order_Num, Branch, Order_Seq, Freight_flag, Prog_bill_flag as Progress_Flag, excl_acct_flag, Matl, Labor, Ovhd, Outs, Frgt, Oth from Y_SA_IN_DETAIL a where RUNID = '{0}'",V.Global.iBIRunID,V.Local.ssql)</string>
+        <string />
+        <string>F.Data.DataTable.CreateFromSQL("SACustCost","conx",V.Local.sSQL,True)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.DataTable.SACustCost.RowCount--,&lt;&gt;,-1)</string>
+        <string>	F.Data.DataTable.SaveToDB("SACustCost","conx","GCG_4342_CUST_COST"," ",128,"BIRUNID@!@BIRUNID*!*PART@!@PART*!*DESCR@!@DESCR*!*PART_LOCN@!@PART_LOCN*!*CUST@!@CUST*!*INVC_NO@!@INVC_NO*!*INVC_DATE@!@INVC_DATE*!*PROD_LINE@!@PROD_LINE*!*QTY_SHIPPED@!@QTY_SHIPPED*!*COST@!@COST*!*ACT_COST@!@ACT_COST*!*SALES@!@SALES*!*SHIPTO_ID@!@SHIPTO_ID*!*SHIP_NAME@!@SHIP_NAME*!*SALES_REP@!@SALES_REP*!*SALES_REP_NAME@!@SALES_REP_NAME*!*ORDER_NUM@!@ORDER_NUM*!*ORDER_SEQ@!@ORDER_SEQ*!*BRANCH@!@BRANCH*!*PROGRESS_FLAG@!@PROGRESS_FLAG*!*FREIGHT_FLAG@!@FREIGHT_FLAG*!*EXCL_ACCT_FLAG@!@EXCL_ACCT_FLAG*!*ACT_MAT@!@ACT_MAT*!*ACT_LAB@!@ACT_LAB*!*ACT_OVHD@!@ACT_OVHD*!*ACT_OUT@!@ACT_OUT*!*ACT_FRT@!@ACT_FRT*!*ACT_OTH@!@ACT_OTH")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Data.DataTable.Close("SACustCost")</string>
+        <string />
+        <string>'ThisdeletesthecontentsoftheY_SA_IN_DETAILtablefortherunid</string>
+        <string>F.Intrinsic.String.Build("Delete from Y_SA_IN_DETAIL where runid='{0}'",V.Global.iBIRunID,V.Local.sDel)</string>
+        <string>F.ODBC.Connection!conx.Execute(V.Local.sDel)</string>
+        <string />
+        <string>'This is calling the Crystal Report</string>
+        <string>F.Global.BI.StopLogging(V.Global.iLogid)</string>
+        <string>F.Intrinsic.Control.CallSub(Callbi)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd1_print_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>program.sub.cmd1_print_click.End</string>
+        <string />
+        <string>Program.Sub.CallBI.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("CallBI_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>V.Local.sParams.Declare(String)</string>
+        <string>V.Local.sValues.Declare(String)</string>
+        <string>V.local.iret.declare(Long)</string>
+        <string />
+        <string />
+        <string>V.Local.sParams.set("AllCust*!*AllDates*!*BegDate*!*EndDate*!*PrtCDec*!*PrtDec*!*InclProg*!*InclFreight*!*InclExclusions")</string>
+        <string>F.Intrinsic.String.Build("{0}*!*{1}*!*{2}*!*{3}*!*{4}*!*{5}*!*{6}*!*{7}*!*{8}",V.Screen.SS_Form1!chk1_AllCust.Value,V.Screen.SS_Form1!chk1_Alldates.Value,V.Screen.SS_Form1!dtp1_Begdate.Value,V.Screen.SS_Form1!dtp1_Enddate.Value,V.Global.CDec,V.Global.QDec,V.Screen.SS_Form1!chk1_InclProg.Value,V.Screen.SS_Form1!chk1_InclFreight.Value,V.Screen.SS_Form1!chk1_InclExclusions.Value,V.Local.sValues)</string>
+        <string />
+        <string>F.Global.BI.runreportpreprocessor(V.Global.iBIRunID,V.Global.iLogid,V.Local.sParams,V.Local.sValues,"",-1,True,"",-1,"",-1,"","",V.Local.iret)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("CallBI_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.CallBI.End</string>
+        <string />
+        <string>program.sub.ss_form1_unload.start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("ss_form1_unload_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>F.ODBC.Connection!conx.Close</string>
+        <string>F.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("ss_form1_unload_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>program.sub.ss_form1_unload.End</string>
+        <string />
+        <string>program.sub.chk1_allCustl_click.start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("chk1_allCust_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>'All</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Screen.SS_Form1!chk1_allCust.Value,=,1)</string>
+        <string>'disable entry of range</string>
+        <string>	Gui.SS_Form1.txt1_BegCust.Enabled(false)</string>
+        <string>	Gui.SS_Form1.txt1_EndCust.Enabled(false)</string>
+        <string>	Gui.SS_Form1.cmd_txt1_BegCust.Enabled(false)</string>
+        <string>	Gui.SS_Form1.cmd_txt1_EndCust.Enabled(false)</string>
+        <string>	Gui.ss_form1.cmd_lvw1_Custadd.Enabled(false)</string>
+        <string>	Gui.ss_form1.cmd_lvw1_Custclear.Enabled(false)</string>
+        <string>	Gui.ss_form1.cmd_lvw1_Custdelete.Enabled(false)</string>
+        <string>	Gui.SS_Form1.txt1_BegCust.Text("")</string>
+        <string>	Gui.SS_Form1.txt1_EndCust.Text("")</string>
+        <string>	Gui.SS_Form1.lvw1_Cust.ClearItems</string>
+        <string />
+        <string>F.Intrinsic.control.Else</string>
+        <string />
+        <string>'enable entry of range</string>
+        <string>	Gui.SS_Form1.txt1_BegCust.Enabled(true)</string>
+        <string>	Gui.SS_Form1.txt1_EndCust.Enabled(true)</string>
+        <string>	Gui.SS_Form1.cmd_txt1_BegCust.Enabled(true)</string>
+        <string>	Gui.SS_Form1.cmd_txt1_EndCust.Enabled(true)</string>
+        <string>	Gui.ss_form1.cmd_lvw1_Custadd.Enabled(true)</string>
+        <string>	Gui.ss_form1.cmd_lvw1_Custclear.Enabled(true)</string>
+        <string>	Gui.ss_form1.cmd_lvw1_Custdelete.Enabled(true)</string>
+        <string>	Gui.SS_Form1.lvw1_Cust.ClearItems</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("chk1_allCust_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>program.sub.chk1_allCustl_click.End</string>
+        <string />
+        <string>program.sub.txt1_begCust_gotfocus.start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("txt1_begCust_gotfocus_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>Gui.SS_Form1.txt1_BegCust.SelectAll</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("txt1_begCust_gotfocus_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>program.sub.txt1_begCust_gotfocus.End</string>
+        <string />
+        <string>program.sub.txt1_begCust_lostfocus.start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("txt1_begpart_lostfocus_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>Gui.SS_Form1.txt1_EndCust.Text(V.Screen.SS_Form1!txt1_BegCust.Text)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("txt1_begpart_lostfocus_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>program.sub.txt1_begCust_lostfocus.End</string>
+        <string />
+        <string>program.sub.txt1_endCust_gotfocus.start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("txt1_endpart_gotfocus_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>Gui.SS_Form1.txt1_EndCust.SelectAll</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("txt1_endpart_gotfocus_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>program.sub.txt1_endCust_gotfocus.End</string>
+        <string />
+        <string>program.sub.cmd_txt1_begCust_click.start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd_txt1_begpart_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>'Beginning Browser</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sTitles.Declare(String)</string>
+        <string>V.Local.sWidths.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.UI.SetBrowserHotTypeAhead(True)</string>
+        <string />
+        <string>F.Intrinsic.UI.Browser(205,"",V.Local.sRet)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Local.sRet,&lt;&gt;,"***CANCEL***")</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)</string>
+        <string>	Gui.ss_form1.txt1_begCust.Text(V.Local.sRet.Trim)</string>
+        <string>	Gui.SS_Form1.txt1_EndCust.Text(V.Screen.SS_Form1!txt1_BegCust.Text)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd_txt1_begpart_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>program.sub.cmd_txt1_begCust_click.End</string>
+        <string />
+        <string>program.sub.cmd_txt1_endCust_click.start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd_txt1_endpart_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>'Ending Browser</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sTitles.Declare(String)</string>
+        <string>V.Local.sWidths.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.UI.SetBrowserHotTypeAhead(True)</string>
+        <string />
+        <string>F.Intrinsic.UI.Browser(205,"",V.Local.sRet)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Local.sRet,&lt;&gt;,"***CANCEL***")</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)</string>
+        <string>	Gui.ss_form1.txt1_endCust.Text(V.Local.sRet.Trim)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd_txt1_endpart_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>program.sub.cmd_txt1_endCust_click.End</string>
+        <string />
+        <string>program.sub.cmd_lvw1_Custadd_click.start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd_lvw1_Custadd_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>'Listview Add button</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.control.If(V.screen.SS_Form1!txt1_BegCust.text,&lt;," ")</string>
+        <string>F.Intrinsic.control.andIf(V.screen.SS_Form1!txt1_EndCust.text,&lt;," ")</string>
+        <string>	F.intrinsic.control.exitsub</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Math.Add(V.global.iKey,1,V.global.iKey)</string>
+        <string>Gui.SS_Form1.lvw1_Cust.AddListItem(V.global.iKey,V.Screen.SS_Form1!txt1_BegCust.Text)</string>
+        <string>Gui.SS_Form1.lvw1_Cust.SetListItemSubItemText(V.global.iKey,1,V.Screen.SS_Form1!txt1_EndCust.Text)</string>
+        <string>Gui.SS_Form1.txt1_BegCust.Text("")</string>
+        <string>Gui.SS_Form1.txt1_EndCust.Text("")</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd_lvw1_Custadd_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>program.sub.cmd_lvw1_Custadd_click.End</string>
+        <string />
+        <string>program.sub.cmd_lvw1_Custdelete_click.start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd_lvw1_Custdelete_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>'Listview delete button</string>
+        <string>V.Local.iKey.Declare(Long)</string>
+        <string>V.Local.iOrd.Declare(Long)</string>
+        <string />
+        <string>V.Local.iKey.Set(V.Screen.SS_Form1!lvw1_Cust.SelectedItemKey)</string>
+        <string>Gui.SS_Form1.lvw1_Cust.removeitem(V.Local.iKey)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd_lvw1_Custdelete_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>program.sub.cmd_lvw1_Custdelete_click.End</string>
+        <string />
+        <string>program.sub.cmd_lvw1_Custclear_click.start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd_lvw1_Custclear_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>'Listview clear button</string>
+        <string>Gui.SS_Form1.lvw1_Cust.ClearItems</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd_lvw1_Custclear_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>program.sub.cmd_lvw1_Custclear_click.End</string>
+        <string />
+        <string>program.sub.chk1_alldates_click.start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("chk1_alldates_click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>'All Dates</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Screen.SS_Form1!chk1_AllDates.Value,=,1)</string>
+        <string>'disable entry of date range</string>
+        <string>	Gui.SS_Form1.dtp1_BegDate.enabled(false)</string>
+        <string>	Gui.SS_Form1.dtp1_EndDate.Enabled(false)</string>
+        <string>	</string>
+        <string>F.Intrinsic.control.Else</string>
+        <string />
+        <string>'enable entry of date range</string>
+        <string>	Gui.SS_Form1.dtp1_BegDate.Enabled(true)</string>
+        <string>	Gui.SS_Form1.dtp1_EndDate.Enabled(true)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("chk1_alldates_click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4342_CUST_COST.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(Ss_form1_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>program.sub.chk1_alldates_click.End</string>
+        <string />
+        <string>Program.Sub.ScreenSS.Start</string>
+        <string>SS_Form1{{CAPTION::Sales Analysis by Customer, Part Number with Cost</string>
+        <string>SS_Form1.CTRL{{NAME::dtp1_Begdate\\TYPE::6\\CAPTION::Beginning Invoice Date\\TABSTOP::1\\GROUP::2\\BROWSER::0\\INTL::779801\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::dtp1_Enddate\\TYPE::6\\CAPTION::Ending Invoice Date\\TABSTOP::2\\GROUP::2\\BROWSER::0\\INTL::779901\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::chk1_Alldates\\TYPE::9\\CAPTION::All Dates\\TABSTOP::3\\GROUP::-1\\SUBGROUP::1\\BROWSER::0\\INTL::19700\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::txt1_BegCust\\TYPE::2\\CAPTION::Beginning Customer Number\\RANGE::lvw1_Cust\\TABSTOP::4\\GROUP::1\\BROWSER::1\\INTL::61000\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::txt1_EndCust\\TYPE::2\\CAPTION::Ending Customer Number\\RANGE::lvw1_Cust\\TABSTOP::5\\GROUP::1\\BROWSER::1\\INTL::212900\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::chk1_AllCust\\TYPE::9\\CAPTION::All Customers\\TABSTOP::6\\GROUP::-1\\SUBGROUP::1\\BROWSER::0\\INTL::19200\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::lvw1_Cust\\TYPE::7\\GROUP::-1\\BROWSER::0\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::chk1_InclProg\\TYPE::9\\CAPTION::Include Progress Bill Lines\\TABSTOP::7\\GROUP::-1\\BROWSER::0\\INTL::291501\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::chk1_InclFreight\\TYPE::9\\CAPTION::Include Freight Charges\\TABSTOP::8\\GROUP::-1\\BROWSER::0\\INTL::291402\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::chk1_InclExclusions\\TYPE::9\\CAPTION::Use Exclusion Accounts to Exclude Records\\TABSTOP::9\\GROUP::-1\\BROWSER::0\\INTL::3305\\SIZE::1</string>
+        <string>SS_Form1.CTRL{{NAME::cmd1_Print\\TYPE::5\\CAPTION::Print\\TABSTOP::10\\GROUP::-1\\BROWSER::0\\INTL::452800\\SIZE::1</string>
+        <string />
+        <string>Program.Sub.ScreenSS.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$$}$$}$12:00:00 AM$}$False</string>
+        <string>Program.Sub.Comments.End</string>
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>407</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>188</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>190</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>198</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>200</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>223</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>225</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>321</Y>
+        </EndPoint>
+        <Text>program.sub.cmd1_print_click</Text>
+        <DisplayText>program.sub.cmd1_print_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>323</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>349</Y>
+        </EndPoint>
+        <Text>Program.Sub.CallBI</Text>
+        <DisplayText>Program.Sub.CallBI</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>351</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>369</Y>
+        </EndPoint>
+        <Text>program.sub.ss_form1_unload</Text>
+        <DisplayText>program.sub.ss_form1_unload</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>371</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>415</Y>
+        </EndPoint>
+        <Text>program.sub.chk1_allCustl_click</Text>
+        <DisplayText>program.sub.chk1_allCustl_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>417</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>435</Y>
+        </EndPoint>
+        <Text>program.sub.txt1_begCust_gotfocus</Text>
+        <DisplayText>program.sub.txt1_begCust_gotfocus</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>437</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>455</Y>
+        </EndPoint>
+        <Text>program.sub.txt1_begCust_lostfocus</Text>
+        <DisplayText>program.sub.txt1_begCust_lostfocus</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>457</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>475</Y>
+        </EndPoint>
+        <Text>program.sub.txt1_endCust_gotfocus</Text>
+        <DisplayText>program.sub.txt1_endCust_gotfocus</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>477</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>509</Y>
+        </EndPoint>
+        <Text>program.sub.cmd_txt1_begCust_click</Text>
+        <DisplayText>program.sub.cmd_txt1_begCust_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>511</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>542</Y>
+        </EndPoint>
+        <Text>program.sub.cmd_txt1_endCust_click</Text>
+        <DisplayText>program.sub.cmd_txt1_endCust_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>544</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>574</Y>
+        </EndPoint>
+        <Text>program.sub.cmd_lvw1_Custadd_click</Text>
+        <DisplayText>program.sub.cmd_lvw1_Custadd_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>576</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>599</Y>
+        </EndPoint>
+        <Text>program.sub.cmd_lvw1_Custdelete_click</Text>
+        <DisplayText>program.sub.cmd_lvw1_Custdelete_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>601</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>620</Y>
+        </EndPoint>
+        <Text>program.sub.cmd_lvw1_Custclear_click</Text>
+        <DisplayText>program.sub.cmd_lvw1_Custclear_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>622</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>652</Y>
+        </EndPoint>
+        <Text>program.sub.chk1_alldates_click</Text>
+        <DisplayText>program.sub.chk1_alldates_click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>654</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>668</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSS</Text>
+        <DisplayText>Program.Sub.ScreenSS</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>670</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>672</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
